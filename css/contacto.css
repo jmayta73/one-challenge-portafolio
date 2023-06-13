@@ -1,0 +1,222 @@
+.formcontato{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+background-color: var(--background-contacto);
+}
+
+.formcontato__contacto{
+
+}
+.formcontato--esquerda{
+display: none;
+}
+.formcontato__img{
+
+}
+.formcontato__text{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.formcontato__title{
+    padding-bottom: .5rem;
+}
+.formcontato__subtext{
+    padding-bottom: .5rem;
+}
+.formcontato__subtext{
+    padding-bottom: 2rem;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.formcontato__input{
+    width: 296px;
+    height: 56px;
+    border-width: 0px;
+    border-radius: 4px;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:var(--contacto-border-color);
+
+
+    
+}
+.formcontato__input::placeholder{
+    color: var(--color-fuente-placeholder);
+    }
+
+
+.formcontato__textarea{
+    width: 296px;
+    height: 133px;
+    border-width: 0px;
+    border-radius: 4px;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:var(--contacto-border-color);
+
+
+
+}
+
+.formcontato__botao{
+    width: 133px;
+    height: 40px;
+    padding: 12px 16px;
+    border-width: 0px;
+    border-radius: 4px;
+ 
+
+    border-style: solid;
+    border-width: 1px;
+    background-color: var(--color-boton-experiencia);
+    border-color: var(--color-boton-experiencia);
+    
+    color: var(--fuente-color-boton-expe);
+}
+    
+
+@media screen and (min-width: 375px) {
+    .formcontato{
+        width: 100%;
+        padding: 0;
+        height: auto;
+
+    }
+    .formcontato__contacto{
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+        gap:1rem;
+    }
+      .formcontato__text{
+        
+        padding: 0;
+        width: 100%;
+    }
+    .formcontato__subtext{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0;
+    }
+    .formcontato__title{
+        font-size: 1.5rem;
+    }
+    .formcontato__form{
+        padding-top: 2rem;
+    }
+    .formcontato__input{
+        width: 100%;
+    }
+    .formcontato__textarea{
+        width: 100%;
+    }
+    .formcontato__input::placeholder{
+        font-size: .8rem;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .formcontato{
+        width: 100%;
+        padding: 0;
+        height: auto;
+
+    }
+    .formcontato__contacto{
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+        gap:1rem;
+    }
+      .formcontato__text{
+        
+        padding: 0;
+        width: 100%;
+    }
+    .formcontato__subtext{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0;
+    }
+    .formcontato__title{
+        font-size: 2rem;
+    }
+    .formcontato__form{
+        padding-top: 2rem;
+    }
+    .formcontato__input{
+        width: 100%;
+    }
+    .formcontato__textarea{
+        width: 100%;
+    }
+    .formcontato__input::placeholder{
+        font-size: .8rem;
+    }
+
+}
+
+
+
+
+    @media screen and (min-width: 1440px) {
+        .formcontato{
+            width: 100%;
+           
+            height: auto;
+
+        }
+        .formcontato__contacto{
+            display: flex;
+            flex-direction: row;
+            padding: 4rem;
+            gap:1rem;
+        }
+        .formcontato--esquerda{
+            display:flex;
+           /* width: 464px;
+            height: 593px;*/
+            
+        }
+        .formcontato__img{
+            width: 464px;
+            height: 600px;
+
+        }
+        .formcontato__text{
+            height: 600px;
+            padding: 0;
+        }
+        .formcontato__subtext{
+            font-size: 1rem;
+            font-weight: 500;
+            padding: 0;
+        }
+        .formcontato__title{
+            font-size: 2rem;
+        }
+        .formcontato__form{
+            padding-top: 2rem;
+        }
+        .formcontato__input{
+            width: 100%;
+        }
+        .formcontato__textarea{
+            width: 100%;
+        }
+        .formcontato__input::placeholder{
+            font-size: .8rem;
+        }
+
+    }
+ 
+    

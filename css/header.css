@@ -1,0 +1,117 @@
+.tudo{
+   
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+   
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    
+    font-size: 16px;
+
+        position: fixed;
+        border-bottom: 2px solid #00e6e6;
+        background-color: #051923b1;
+        backdrop-filter: blur(5px);
+
+   
+}
+.menu{
+    display:flex;
+    
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    
+    padding: 1.2rem;
+    height: 18px;
+}
+.menu__header{
+    display:inline-flex;
+    
+}
+.menu__title{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--background-blanco);
+    font-size: 1.2rem;
+    padding-left: .5rem; 
+}
+.menu__list{
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+        border: none;
+        text-align: center;
+        display: none;
+  
+}
+
+.vector{
+    object-fit: contain;
+    background: var(--background-blanco);
+}
+
+.menu__list-item{
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .7rem;
+}
+.menu__list__item-a{
+    color: var(--background-blanco);
+}
+.menu__list__item__contato{
+    font-size: 1rem;
+    font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+    .title {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+@media screen and (min-width:1440px) {
+    /*.tudo{
+        position: fixed;
+        border-bottom: 2px solid #00e6e6;
+        background-color: #051923b1;
+        backdrop-filter: blur(5px);
+        
+        
+    }*/
+    .menu__list__item__contato{
+        display: none;
+        
+    }
+    .menu__list{
+        display: flex;
+        gap:2rem;
+        
+
+    }
+    
+    
+    .email{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .menu__title{
+        color: var(--background-blanco);
+        font-size: 1.2rem;
+        padding-left: .5rem;
+    }
+    .vector{
+        background: var(--background-blanco);
+    }
+
+}
